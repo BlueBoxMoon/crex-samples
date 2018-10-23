@@ -14,7 +14,7 @@ namespace Sample.AppleTV
         {
             Window = new UIWindow( UIScreen.MainScreen.Bounds );
 
-            new Crex.tvOS.Application().Run( Window );
+            Crex.tvOS.Application.Current.Run( Window );
 
             return true;
         }

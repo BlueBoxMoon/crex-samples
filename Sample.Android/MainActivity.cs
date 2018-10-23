@@ -13,7 +13,7 @@ namespace Sample.Android
         {
             base.OnCreate(savedInstanceState);
 
-            new Crex.Android.Application().Run( this );
+            Crex.Android.Application.Current.Run( this );
         }
     }
 }
